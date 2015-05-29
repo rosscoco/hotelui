@@ -1,0 +1,187 @@
+$navblue:#4ab4e8;
+$lightblue:#4ab4e8;
+$medblue:#1c578f;
+$darkblue:#164c88;
+$margin:20px;
+$textgrey:#444849;
+
+@mixin reset-list 
+{
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+
+#toggle
+{
+	width:100px;
+	height:100px;
+	background-color: $navblue;
+	position:fixed;
+	top:0;
+	left:0;
+}
+
+#layout
+{
+	opacity:.9;
+	position:absolute;
+	z-index:100;
+	
+}
+
+
+*{
+	box-sizing:border-box;
+	font-family: 'Open Sans', sans;
+	font-weight: 300;
+	margin:0;
+	padding:0;
+}
+
+body{
+	position:relative;
+
+}
+
+@import url('normalize.css');
+
+.wrap
+{
+	background:$darkblue;
+	width:1140px;
+	margin:auto;
+}
+
+nav {
+
+	padding-top: 75px;
+	margin-bottom:$margin*2;
+	ul {
+		
+		font-size: 0;
+		position:relative;
+		
+		li {
+			@include reset-list;
+			display:inline-block;
+			background-image: url(../img/navBG.png);
+			text-transform: uppercase;
+			color:white;
+			font-size:1.1rem;				
+			text-align: center;
+			width:190px;
+			height:116px;
+			border-right:1px solid #2b69a4;
+			border-left:1px solid #577abe;
+			padding-top: 30px;
+			
+			&.active {
+				background-image: url(../img/navBGSelected.png);
+				
+				.navIcon {
+					color:#FFFFFF;
+				}
+			}
+
+			&:first-child{
+				border-left: none;
+			}
+
+			&:last-child {
+				border-right:none
+			}
+
+			.navIcon {
+				color:#577abe;
+				
+				&.fa {
+					font-size: 26px;
+				}
+			}
+
+			&:hover
+			{
+				.navIcon {
+					color:#FFFFFF;
+				}
+			}
+
+			p
+			{
+				margin-top: 15px;
+			}
+		} 
+
+
+
+
+	}
+
+}
+
+header {
+	height:640px;
+	width:780px;
+	position:relative;
+	float:left;
+	-webkit-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.25);
+	box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.25);
+	
+	img {
+
+		float:left;
+	}
+
+	.textDetails {
+		position:absolute;
+		top:20px;
+	}
+}
+
+
+.checkReservation
+{
+	background-color: $medblue;
+	height:100%;
+	width:420px;
+	float:right;
+}
+
+.detailsSlider
+{
+	background-color: #f6fafd;
+	float:left;
+	padding: 30px;
+	width:100%;
+
+	img {
+		padding:10px;
+		background-color: white;
+		margin-right: 40px;		
+		display:inline;
+	}
+
+	h1
+	{
+		padding:0;
+		margin:10px 0 10px;
+		line-height:0.95em;
+		font-weight:400;
+		color:$darkblue;
+	}	
+	
+	p {
+		padding:0;
+		margin:0;
+		
+		font-size:0.85em;
+	
+	}
+}
+
+
+
+
+

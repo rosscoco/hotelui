@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Hotel UI Experiment</title>
+        <meta name="description" content="">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./css/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src='./js/jquery.js'></script>
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <script>
+        	$(document).ready( function(){
+        		console.log('ready')
+        		$('#toggle').on('click', function(){
+        			$('#layout').toggle();
+        		})
+        	})
+
+        </script>
+    </head>
+    <body>
+    	<div id="toggle"></div>
+
+    	<div class="wrap">
+	    	<img src="./img/layout.png" id='layout' alt=""/>
+	   		<nav>
+				<ul>
+					<li class="active"><span class="fa fa-home navIcon"></span><p>Home</p></li>
+					<li><span class="fa fa-plane navIcon"></span><p>Tickets</p></li>
+					<li><span class="fa fa-bell navIcon"></span><p>Services</p></li>
+					<li><span class="fa fa-credit-card navIcon"></span><p>Reservations</p></li>
+					<li><span class="fa fa-cutlery navIcon"></span><p>Restaurant</p></li>
+					<li><span class="fa fa-envelope navIcon"></span><p>Contact&nbsp;Us</p></li>
+				</ul>
+			</nav>
+			<header class="mainContent">
+				<img src="./img/headerImg.png" alt="">
+				<div class="textDetails">
+					<h2>YOU ARE</h2>
+					<h1>INVITED<h1>
+				</div>
+				<div class="detailsSlider">
+					<img src="./img/food.png" alt="">
+					<h1>Seafood week<br>in our resturant</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias cupiditate consectetur neque pariatur, alias illum, dolorum quod itaque possimus ex officia eum quos velit.</p>				
+					<a href="">Read menu</a>
+				</div>
+			</header>
+			<form action="" class="checkReservation">
+				<h2>Reservation</h2>
+				<label for="checkIn">Check In</label>
+				<input type="date" class='datePicker' id='checkInDate' name='checkIn'>
+				<label for="checkOutDate">Check Out</label>
+				<input type="date" class='datePicker' id='checkInDate' name='checkIn'>
+				<input type="checkbox" id="flexibleDates" name="flexibleDates">
+				<label type="label" id="flexibleDatesLabel" for='flexibleDates'>Flexible Dates?</label>
+				<div class="chooseNumRooms">
+					<label for="numAdults">Adults</label>
+					<label for="numChildren">Children</label>
+					<select name="numAdults" id="numAdults">
+						<option value="0">0</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+					</select>
+					<select name="numChildren" id="numChildren">
+						<option value="0">0</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+					</select>
+				</div>
+			</form>			
+		</div>	
+    </body>
+</html>

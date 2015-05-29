@@ -1,0 +1,133 @@
+@import url("normalize.css");
+#toggle {
+  width: 100px;
+  height: 100px;
+  background-color: #4ab4e8;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#layout {
+  opacity: .9;
+  position: absolute;
+  z-index: 100;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+}
+
+.wrap {
+  background: #164c88;
+  width: 1140px;
+  margin: auto;
+}
+
+nav {
+  padding-top: 75px;
+  margin-bottom: 40px;
+}
+nav ul {
+  font-size: 0;
+  position: relative;
+}
+nav ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  background-image: url(../img/navBG.png);
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.1rem;
+  text-align: center;
+  width: 190px;
+  height: 116px;
+  border-right: 1px solid #2b69a4;
+  border-left: 1px solid #577abe;
+  padding-top: 30px;
+}
+nav ul li.active {
+  background-image: url(../img/navBGSelected.png);
+}
+nav ul li.active .navIcon {
+  color: #FFFFFF;
+}
+nav ul li:first-child {
+  border-left: none;
+}
+nav ul li:last-child {
+  border-right: none;
+}
+nav ul li .navIcon {
+  color: #577abe;
+}
+nav ul li .navIcon.fa {
+  font-size: 26px;
+}
+nav ul li:hover .navIcon {
+  color: #FFFFFF;
+}
+nav ul li p {
+  margin-top: 15px;
+}
+
+header {
+  height: 640px;
+  width: 780px;
+  position: relative;
+  float: left;
+  -webkit-box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.25);
+}
+header img {
+  float: left;
+}
+header .textDetails {
+  position: absolute;
+  top: 20px;
+}
+
+.checkReservation {
+  background-color: #1c578f;
+  height: 100%;
+  width: 420px;
+  float: right;
+}
+
+.detailsSlider {
+  background-color: #f6fafd;
+  float: left;
+  padding: 30px;
+  width: 100%;
+}
+.detailsSlider img {
+  padding: 10px;
+  background-color: white;
+  margin-right: 40px;
+  display: inline;
+}
+.detailsSlider h1 {
+  padding: 0;
+  margin: 10px 0 10px;
+  line-height: 0.95em;
+  font-weight: 400;
+  color: #164c88;
+}
+.detailsSlider p {
+  padding: 0;
+  margin: 0;
+  font-size: 0.85em;
+}
+
+/*# sourceMappingURL=styles.css.map */

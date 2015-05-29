@@ -1,0 +1,384 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"p",
+				"pointer"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"file",
+				"fileJSON"
+			],
+			[
+				"save",
+				"saveToDir"
+			],
+			[
+				"cate",
+				"categoryFolder"
+			],
+			[
+				"categ",
+				"categoryName"
+			],
+			[
+				"url",
+				"urlToLoad"
+			],
+			[
+				"n",
+				"numPagesLoaded"
+			],
+			[
+				"res",
+				"resultsPerPage"
+			],
+			[
+				"ne",
+				"nextPageID"
+			],
+			[
+				"start",
+				"startOffset"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"inpu",
+				"input_search"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"search",
+				"searchTerm"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"ex",
+				"exphbs"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "emmetwr",
+		"selected_items":
+		[
+			[
+				"emmetwr",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"json",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"terminal",
+				"Preferences: Terminal Key Bindings – Default"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/rossco/Documents/_Dev/_WebDesign/hotelui"
+	],
+	"file_history":
+	[
+		"/Users/rossco/Library/Application Support/Sublime Text 3/Packages/User/seaf.sublime-snippet",
+		"/Users/rossco/Documents/_Dev/_jquery/events.html",
+		"/Users/rossco/Documents/_Dev/_jquery/insert.html",
+		"/Users/rossco/Documents/_Dev/node/handlebars/views/searchResults.handlebars",
+		"/Users/rossco/Documents/_Dev/node/handlebars/server.js",
+		"/Users/rossco/Documents/_Dev/node/handlebars/Adidas/InsertDB.js",
+		"/Users/rossco/Documents/_Dev/node/handlebars/Adidas/WomensApparel/start=0.json",
+		"/Users/rossco/Documents/_Dev/node/handlebars/Adidas/Extract.js",
+		"/Users/rossco/Documents/_Dev/node/handlebars/Adidas/MensShoes/combined.json",
+		"/Users/rossco/Documents/_Dev/node/handlebars/Adidas/WomensShoes/combined.json",
+		"/Users/rossco/Documents/_Dev/node/handlebars/Adidas/JoinFiles.js",
+		"/Users/rossco/Documents/_Dev/node/handlebars/mensApparel/start=0.json",
+		"/Users/rossco/Documents/_Dev/node/handlebars/public/css/style.css",
+		"/Users/rossco/Documents/_Dev/node/handlebars/scrape4.js",
+		"/Users/rossco/Documents/_Dev/node/handlebars/public/shoes.html",
+		"/Users/rossco/Desktop/testheight.html",
+		"/Users/rossco/Library/Application Support/Sublime Text 3/Packages/Terminal/Default (OSX).sublime-keymap",
+		"/Users/rossco/Library/Application Support/Sublime Text 3/Packages/Emmet/Default (Windows).sublime-keymap",
+		"/Users/rossco/Documents/_Dev/node/handlebars/start=0.json",
+		"/Users/rossco/Documents/_Dev/node/handlebars/public/form.html",
+		"/Users/rossco/Documents/_Dev/node/handlebars/public/js/form.js",
+		"/Users/rossco/Documents/_Dev/node/handlebars/public/shoeitem.html",
+		"/Users/rossco/Documents/_Dev/node/handlebars/sqltests.js",
+		"/Users/rossco/Documents/_Dev/node/handlebars/public/index.html",
+		"/Users/rossco/Documents/_Dev/node/handlebars/package.json",
+		"/Users/rossco/Documents/_Dev/node/handlebars/views/home.handlebars",
+		"/Users/rossco/Documents/_Dev/node/handlebars/db1.js",
+		"/Users/rossco/Documents/_Dev/node/handlebars/views/layouts/main.handlebars",
+		"/Volumes/BOOTCAMP/Users/Rossco/Documents/_dev/sqlite/cozy-tutorial/server.js",
+		"/Users/rossco/Documents/_Dev/node/handlebars/hb.sublime-project",
+		"/Users/rossco/Documents/_Dev/node/handlebars/public/views/home.handlebars",
+		"/Users/rossco/Documents/_Dev/node/handlebars/public/views/index.handlebars",
+		"/Users/rossco/Documents/_Dev/node/handlebars/public/views/main.handlebars",
+		"/Users/rossco/Library/Application Support/Sublime Text 3/Packages/Emmet/Default.sublime-commands",
+		"/Users/rossco/Library/Application Support/Sublime Text 3/Packages/Emmet/emmet/snippets.json",
+		"/Users/rossco/Library/Application Support/Sublime Text 3/Packages/Handlebars/README.md",
+		"/Users/rossco/Documents/_Dev/node/handlebars/public/test.html",
+		"/Users/rossco/Library/Application Support/Sublime Text 3/Packages/HTML Boilerplate/README.md",
+		"/Users/rossco/Library/Application Support/Sublime Text 3/Packages/Emmet/Preferences.sublime-settings",
+		"/Users/rossco/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/Users/rossco/Library/Application Support/Sublime Text 3/Installed Packages/Emmet.sublime-package",
+		"/Users/rossco/Documents/_Dev/node/handlebars/test.js",
+		"/Users/rossco/Library/Application Support/Sublime Text 3/Packages/FolderFiles/readme.md"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			">\n",
+			"InitDB",
+			"shoe_data",
+			"shoe",
+			"checkAllArticlesLoaded",
+			"loadProductInfo",
+			"finished",
+			"onPageContentsExtracted",
+			"write",
+			"checkAllArticlesLoaded",
+			"loadProdu",
+			"request",
+			"loadProductInfo",
+			"fs",
+			"    \n",
+			"FFFFFF",
+			"909",
+			"});\n",
+			"string",
+			"handlebars"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "hotel.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 272.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
